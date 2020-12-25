@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"fmt"
 	"github.com/gorilla/mux"
-	"log"
 	_ "github.com/lib/pq"
+	"log"
 )
 
 type App struct{
